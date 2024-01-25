@@ -1,12 +1,11 @@
 import React from "react";
 
-import Navbar from "components/Navbars/AuthNavbar.js";
+import Admin from "layouts/Admin.js";
 import Footer from "components/Footers/Footer.js";
 
 export default function Profile() {
   return (
     <>
-      <Navbar transparent />
       <main className="profile-page">
         <section className="relative block h-500-px">
           <div
@@ -140,3 +139,5 @@ export default function Profile() {
     </>
   );
 }
+
+Profile.layout = Admin;
