@@ -14,3 +14,6 @@ Thumbs.db
 # IDE and editor files
 .idea/
 .vscode/
+
+
+out/
